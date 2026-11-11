@@ -1,12 +1,22 @@
 # Flutter e Dart — Fundamentos da Programação
 
 <div align="center">
+  <img
+    src="assets/Flutter_Dart_Readme.gif"
+    width="100%"
+    alt="Flutter e Dart — Aprendendo hoje, criando amanhã!"
+  />
+</div>
+
+#
+<div align="center">
 
 ![Dart](https://img.shields.io/badge/Dart-Linguagem-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-Em%20Aprendizado-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+#
 **Repositório de estudos e atividades práticas de Dart, com foco nos fundamentos da programação e na construção de uma base para desenvolvimento com Flutter.**
 
 [Documentação Dart](https://dart.dev/) • [Documentação Flutter](https://docs.flutter.dev/) • [DartPad](https://dartpad.dev/)
@@ -16,6 +26,7 @@
 ---
 
 ## Sobre o projeto
+
 
 Este projeto foi desenvolvido com o objetivo de estudar e praticar a linguagem **Dart**, começando pelos conceitos fundamentais da programação.
 
