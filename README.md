@@ -60,9 +60,9 @@ Introdução à linguagem Dart, conhecendo a declaração de variáveis, os prin
 
 | Questão | Atividade | Conceitos |
 |---|---|---|
-| 01 | Meu primeiro programa | `main()` e `print()` |
-| 02 | Cadastro de aluno | `String`, `int`, `double` e `bool` |
-| 03 | Conhecendo a variável var | Inferência de tipos com `var` |
+| 01 | Atividade1 | `main()` e `print()` |
+| 02 | Atividade2 | `String`, `int`, `double` e `bool` |
+| 03 | Atividade3 | Inferência de tipos com `var` |
 
 ### 02. Operadores
 
@@ -70,9 +70,9 @@ Prática com operações matemáticas e comparações entre valores.
 
 | Questão | Atividade | Conceitos |
 |---|---|---|
-| 04 | Calculadora simples | Soma, subtração, multiplicação e divisão |
-| 05 | Calculando uma compra | Operações matemáticas e variáveis |
-| 06 | Operadores relacionais | `>`, `<`, `==` e `!=` |
+| 04 | Atividade4 | Soma, subtração, multiplicação e divisão |
+| 05 | Atividade5 | Operações matemáticas e variáveis |
+| 06 | Atividade6 | `>`, `<`, `==` e `!=` |
 
 ### 03. Estruturas condicionais
 
@@ -80,9 +80,9 @@ Introdução à lógica de decisão, permitindo que os programas executem difere
 
 | Questão | Atividade | Conceitos |
 |---|---|---|
-| 07 | Maioridade | `if` e `else` |
-| 08 | Situação do aluno | `if`, `else if` e `else` |
-| 09 | Sistema de descontos | Condições e cálculos percentuais |
+| 07 | Atividade7 | `if` e `else` |
+| 08 | Atividade8 | `if`, `else if` e `else` |
+| 09 | Atividade9 | Condições e cálculos percentuais |
 
 ### 04. Operadores lógicos
 
@@ -90,7 +90,7 @@ Utilização de operadores lógicos para combinar diferentes condições dentro 
 
 | Questão | Atividade | Conceitos |
 |---|---|---|
-| 10 | Acesso a um evento | `&&` e condições combinadas |
+| 10 | Atividade10 | `&&` e condições combinadas |
 
 ### 05. Desafio final
 
@@ -130,37 +130,43 @@ Durante as atividades, são trabalhados os seguintes conceitos:
 A estrutura sugerida para o repositório é:
 
 ```text
-flutter-e-dart/
+ATIVIDADES_DART/
 │
 ├── README.md
 │
-├── atividades/
-│   ├── parte-01-variaveis/
-│   │   ├── questao-01.dart
-│   │   ├── questao-02.dart
-│   │   └── questao-03.dart
-│   │
-│   ├── parte-02-operadores/
-│   │   ├── questao-04.dart
-│   │   ├── questao-05.dart
-│   │   └── questao-06.dart
-│   │
-│   ├── parte-03-condicionais/
-│   │   ├── questao-07.dart
-│   │   ├── questao-08.dart
-│   │   └── questao-09.dart
-│   │
-│   ├── parte-04-operadores-logicos/
-│   │   └── questao-10.dart
-│   │
-│   └── desafio-final/
-│       └── cadastro-funcionarios.dart
-│
-└── assets/
-    └── images/
+├── atividade1/
+│   ├── main.dart/
+│   
+├── atividade2/
+│   ├── main.dart/
+│   
+├── atividade3/
+│   ├── main.dart/
+│   
+├── atividade4/
+│   ├── main.dart/
+│   
+├── atividade5/
+│   ├── main.dart/
+│   
+├── atividade6/
+│   ├── main.dart/
+│   
+├── atividade7/
+│   ├── main.dart/
+│   
+├── atividade8/
+│   ├── main.dart/
+│   
+├── atividade9/
+│   ├── main.dart/
+│   
+├── atividade10/
+│   ├── main.dart/
+|
+├── desafioFinal/
+│   ├── main.dart/
 ```
-
-*Observação: essa é a organização proposta para o projeto. Os diretórios e arquivos podem ser criados conforme as atividades forem desenvolvidas.*
 
 ## Como executar as atividades
 
@@ -182,21 +188,19 @@ O comando deverá apresentar a versão instalada do Dart.
 
 ### Executar uma atividade
 
-Acesse a pasta do projeto pelo terminal e execute:
+Acesse cada pasta do projeto pelo terminal e execute:
 
 ```bash
-dart atividades/parte-01-variaveis/questao-01.dart
+cd atividade1
+dart run main.dart
 ```
 
 Para executar outras atividades, basta substituir o caminho pelo arquivo desejado.
 
-### Executar pelo DartPad
-
-Também é possível testar os códigos diretamente pelo navegador, sem precisar configurar um ambiente local.
-
-Acesse: https://dartpad.dev/
-
-Copie o código da atividade, cole no editor e pressione **Run** para executar.
+```bash
+cd atividade2/3/4...
+dart run main.dart
+```
 
 ## Metodologia de aprendizagem
 
@@ -208,7 +212,6 @@ O desenvolvimento deste projeto segue uma abordagem progressiva:
 4. **Compreensão:** entender o funcionamento de cada instrução do código.
 5. **Evolução:** avançar gradualmente para novos conceitos e funcionalidades.
 
-A prioridade é desenvolver a capacidade de interpretar problemas e transformá-los em soluções utilizando programação.
 
 ## Roadmap de estudos
 
